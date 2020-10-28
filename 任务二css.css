@@ -1,0 +1,156 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+.background1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0%;
+    background: url(背景.png) left top no-repeat;
+    background-size: cover;
+}
+.login{
+    position: absolute;
+    box-sizing: border-box;
+    width: 80%;
+    height: 85%;
+    left: 10%;
+    top:  10%;
+}
+.left{
+    box-sizing: border-box;
+    margin: 0% ;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item1{
+    box-sizing: border-box;
+    margin: 0px;
+    width: 9%;
+    height: 9%;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-item2{
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: 8%;
+}
+
+.flex-item3{
+    display: inline;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 380px;
+    height: 40px;
+    
+}
+
+#create{
+    color: violet;
+    background-clip: padding-box;
+    background-color: white;
+    width: 125px;
+    height: 38px;
+    border-radius: 20px;
+    border-color:  rgb(254, 114, 212);
+    outline-style: none;
+}
+
+.right{
+    box-sizing: border-box;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: url(登录界面.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[class*="flex-"]{
+    text-align: center;
+}
+
+input[type=text]{
+    width: 110%;
+    height: 25px;
+    padding: 10px 0px 10px 0px;
+    text-indent: 7%;
+    outline: none;
+    border-radius: 25px;
+    border-color: rgba(169, 169, 169, 0.959);
+}
+
+input[type=text]:focus{
+    background-color: rgb(231, 231, 231);
+}
+
+#login{
+    border: none;
+    outline-style: none;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 0px 0px 0px 15px;
+    width: 210px;
+    height: 50px;
+    background-image: linear-gradient(to right,rgb(255, 204, 144),rgb(254, 114, 212));
+    color: white;
+}
+
+.p-tidi{
+    box-sizing: border-box;
+    height: 140px;
+    padding: 0%;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-size: 148px;
+    font-weight: 600;
+    color: rgba(243, 243, 243,0.2);
+}
+
+#waite{
+    background-color: white;
+    height: 8px; 
+    display: inline-block;
+}
+
+.Circle{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Circle1>div{
+    position: absolute; 
+    display: inline-block;
+    z-index: 1; 
+    background-color:rgb(252,237,230); 
+}
+
+.xiao{
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+}
+
+.zhong{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(242,222,213)
+}
